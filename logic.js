@@ -5,7 +5,7 @@ console.log((password.length)>7);
 let height=125;
 
 
-if( (height>=150) && (typeof(height)==="number") ){
+if( (height>=150) && ((typeof height)==="number")) {
 
     console.log("you can go on the ride");
 }
